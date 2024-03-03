@@ -149,6 +149,7 @@ root@896cf839cf9a:/alx-pre_course# git config --global user.name "Your Name"
 
 ```
 - Add this new file to git, commit the change with this message “My first commit” and push to the remote server / origin
+
 ```
 root@896cf839cf9a:/alx-zero_day# git add .
 root@896cf839cf9a:/alx-zero_day# git commit -m 'My first commit'
@@ -162,7 +163,9 @@ Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)                                                                                        
 To https://github.com/{YOUR_USERNAME}/alx-zero_day.git                                                                       
  * [new branch]      master -> master              
+
 ```
+
 - Good job!
 
 - You pushed your first file in your first repository of the first task of your first ALX School project.
