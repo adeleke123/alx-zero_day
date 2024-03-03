@@ -93,69 +93,81 @@ Once it’s created, you should have a token that looks like this:
 ![a449483cd76a72cef1b42df831e686c64faa1cf6](https://github.com/adeleke123/alx-zero_day/assets/51156057/cbe675f8-c175-463b-807b-ce890315eaa6)
 
 
-Step 2 - Update your profile on the Intranet
-Update your Intranet profile by adding your Github username here
+- **Step 2 - Update your profile on the Intranet**
+- Update your Intranet profile by adding your Github username here
 
 If it’s not done the Checker won’t be able to correct your work
 
+![image](https://github.com/adeleke123/alx-zero_day/assets/51156057/3d3010f7-ec89-4430-9807-e58b64c374f4)
 
 
-Step 3 - Create your first repository
-Using the graphic interface on the github website, create your first repository.
+- **Step 3 - Create your first repository**
+- Using the graphic interface on the [github website](https://github.com/), create your first repository.
 
-Name: alx-zero_day
-Description: I'm now a ALX Student, this is my first repository as a full-stack engineer
-Public repo
-No README, .gitignore, or license
+- Name: `alx-zero_day`
+- Description: `I'm now a ALX Student, this is my first repository as a full-stack engineer`
+- Public repo
+- No `README`, `.gitignore`, or license
+
+  ![image](https://github.com/adeleke123/alx-zero_day/assets/51156057/731a3ee5-b676-4d40-84a6-778f2a425f00)
 
 
-Step 4 - Open the sandbox
-On the intranet, just under the task, click on the button  and run to start the machine.
+- **Step 4 - Open the sandbox**
+- On the intranet, just under the task, click on the button  and run to start the machine.
 
-Once the container is started, click on  to open a shell where you can start work from.
+- Once the container is started, click on  to open a shell where you can start work from.
 
-Step 5 - Clone your repository
-On the webterm of the sandbox, do the following:
+- **Step 5 - Clone your repository**
+- On the webterm of the sandbox, do the following:
 
-Clone your repository
+- Clone your repository
+```
 root@896cf839cf9a:/# git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-zero_day.git                  
 Cloning into 'alx-zero_day'...
-warning: You appear to have cloned an empty repository.       
-Replace {YOUR_PERSONAL_TOKEN} with your token from step 1
+warning: You appear to have cloned an empty repository.
+```       
+- Replace {YOUR_PERSONAL_TOKEN} with your token from step 1
+- Replace {YOUR_USERNAME} with your username from step 0 and 1
 
-Replace {YOUR_USERNAME} with your username from step 0 and 1
+- Pro-Tip: On windows, use CTRL + A + V to paste in the web terminal
 
-Pro-Tip: On windows, use CTRL + A + V to paste in the web terminal
-
-Step 6 - Create the README.md and push the modifications
-Navigate to this new directory. Tips
+- Step 6 - Create the README.md and push the modifications
+- Navigate to this new directory. [Tips](https://askubuntu.com/questions/232442/how-do-i-navigate-between-directories-in-terminal)
+```
 root@896cf839cf9a:/# cd alx-zero_day/
 root@896cf839cf9a:/alx-zero_day#
-Create the file README.md with the content My first readme. Tips
-root@896cf839cf9a:/alx-zero_day# echo 'My first readme' > README.md                                                                 
-root@896cf839cf9a:/alx-zero_day# cat README.md                                                                                      
-My first readme                                                                                                                       
-Update your git identity
+```
+- Create the file `README.md` with the content `My first readme`. [Tips](https://forum.howtoforge.com/threads/echo-into-a-file.115/)
+```
+root@896cf839cf9a:/alx-zero_day# echo 'My first readme' > README.md                                                           
+root@896cf839cf9a:/alx-zero_day# cat README.md                                                                                
+My first readme                                                                                                               ```     
+- Update your git identity
+```
 root@896cf839cf9a:/alx-pre_course# git config --global user.email "you@example.com"
 root@896cf839cf9a:/alx-pre_course# git config --global user.name "Your Name"
-Add this new file to git, commit the change with this message “My first commit” and push to the remote server / origin
+
+```
+- Add this new file to git, commit the change with this message “My first commit” and push to the remote server / origin
+```
 root@896cf839cf9a:/alx-zero_day# git add .
 root@896cf839cf9a:/alx-zero_day# git commit -m 'My first commit'
 [master (root-commit) 98eef93] My first commit
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
-root@896cf839cf9a:/alx-zero_day# git push                                                                                           
-Enumerating objects: 3, done.                                                                                                         
-Counting objects: 100% (3/3), done.                                                                                                   
-Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.                                                                          
-Total 3 (delta 0), reused 0 (delta 0)                                                                                                 
-To https://github.com/{YOUR_USERNAME}/alx-zero_day.git                                                                                       
+root@896cf839cf9a:/alx-zero_day# git push                                                                                     
+Enumerating objects: 3, done.                                                                                                 
+Counting objects: 100% (3/3), done.                                                                                           
+Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.                                                                  
+Total 3 (delta 0), reused 0 (delta 0)                                                                                        
+To https://github.com/{YOUR_USERNAME}/alx-zero_day.git                                                                       
  * [new branch]      master -> master              
-Good job!
+```
+- Good job!
 
-You pushed your first file in your first repository of the first task of your first ALX School project.
+- You pushed your first file in your first repository of the first task of your first ALX School project.
 
-You can now check your repository on GitHub to see if everything is good.
+- You can now check your repository on GitHub to see if everything is good.
 
 Repo:
 
