@@ -125,24 +125,28 @@ If it’s not done the Checker won’t be able to correct your work
 root@896cf839cf9a:/# git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-zero_day.git                  
 Cloning into 'alx-zero_day'...
 warning: You appear to have cloned an empty repository.
+
 ```       
 - Replace {YOUR_PERSONAL_TOKEN} with your token from step 1
 - Replace {YOUR_USERNAME} with your username from step 0 and 1
-
 - Pro-Tip: On windows, use CTRL + A + V to paste in the web terminal
-
 - Step 6 - Create the README.md and push the modifications
 - Navigate to this new directory. [Tips](https://askubuntu.com/questions/232442/how-do-i-navigate-between-directories-in-terminal)
+
 ```
 root@896cf839cf9a:/# cd alx-zero_day/
 root@896cf839cf9a:/alx-zero_day#
 ```
 - Create the file `README.md` with the content `My first readme`. [Tips](https://forum.howtoforge.com/threads/echo-into-a-file.115/)
+
 ```
 root@896cf839cf9a:/alx-zero_day# echo 'My first readme' > README.md                                                           
 root@896cf839cf9a:/alx-zero_day# cat README.md                                                                                
-My first readme                                                                                                               ```     
+My first readme
+
+```     
 - Update your git identity
+
 ```
 root@896cf839cf9a:/alx-pre_course# git config --global user.email "you@example.com"
 root@896cf839cf9a:/alx-pre_course# git config --global user.name "Your Name"
