@@ -196,7 +196,7 @@ To https://github.com/{YOUR_USERNAME}/alx-zero_day.git
   
 **2. Coding fury road**
 - For the moment we have an empty project directory containing only a `README.md`. It’s time to code!
-` Create these directories at the root of your project: `bash, c, js`
+- Create these directories at the root of your project: `bash, c, js`
 - Create these empty files:
 - `c/c_is_fun.c`
 - `js/main.js`
@@ -238,45 +238,43 @@ To https://github.com/{YOUR_USERNAME}/alx-zero_day.git
 - Commit your changes (message: “Hot fix”) and push to the origin
 - Ouf, hot fix is done!
 
-Repo:
+**Repo:**
 
-GitHub repository: alx-zero_day
-Directory: 0x03-git
-File: bash/alx, bash/school, bash/98
+- GitHub repository: `alx-zero_day`
+- Directory: `0x03-git`
+- File: `bash/alx, bash/school, bash/98`
     
-4. Collaboration: be up to date
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Of course, you can also work on the same branch as your co-workers and it’s best if you keep up to date with their changes.
+**4. Collaboration: be up to date**
 
-For this task – and only for this task – please update your file README.md in the main branch from GitHub.com. It’s the only time you are allowed to update and commit from GitHub interface.
+- Of course, you can also work on the same branch as your co-workers and it’s best if you keep up to date with their changes.
 
-After you have done that, in your terminal:
+- For this task – **and only for this task** – please update your file README.md in the main branch from GitHub.com. It’s the **only time** you are allowed to update and commit from GitHub interface.
 
-Get all changes of the main branch locally (i.e. your README.md file will be updated)
-Create a new file up_to_date at the root of your directory and in it, write the git command line used
-Add up_to_date to git, commit (message: “How to be up to date in git”), and push to the origin
-Repo:
+- After you have done that, in your terminal:
 
-GitHub repository: alx-zero_day
-Directory: 0x03-git
-File: README.md, up_to_date
+- Get all changes of the main branch locally (i.e. your `README.md` file will be updated)
+- Create a new file `up_to_date` at the root of your directory and in it, write the git command line used
+- Add `up_to_date` to git, commit (message: “How to be up to date in git”), and push to the origin
+**Repo:**
+
+- GitHub repository: `alx-zero_day`
+- Directory: `0x03-git`
+- File: `README.md,` `up_to_date`
     
-5. HAAA what did you do???
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
-Collaboration is cool, but not really when you update the same file at the same time…
+**5. HAAA what did you do???**
 
-To illustrate that, please merge the branch update_script to main: “Cool, all my changes will be now part of the main branch, ready to be deployed!”
+- Collaboration is cool, but not really when you update the same file at the same time…
 
-HHHHHHHAAAAAAAA
+- To illustrate that, please merge the branch `update_script` to `main`: “Cool, all my changes will be now part of the main branch, ready to be deployed!”
 
-CONFLICT (content): Merge conflict in bash/alx
-As you can see, you have conflicts between two branches on the same file.
+**HHHHHHHAAAAAAAA**
 
-Your goal now is to resolve conflicts by using the version of the branch update_script, and push the result to the origin.
+`CONFLICT (content): Merge conflict in bash/alx`
+- As you can see, you have conflicts between two branches on the same file.
 
-At the end, you should have all your work from the branch update_script (new file and two updated files) and all latest main commits (new files, delete folder, etc.), without conflicts.
+- Your goal now is to resolve conflicts by using the version of the branch update_script, and push the result to the origin.
+
+- At the end, you should have all your work from the branch update_script (new file and two updated files) and all latest main commits (new files, delete folder, etc.), without conflicts.
 
 Repo:
 
